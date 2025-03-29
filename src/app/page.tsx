@@ -1,10 +1,6 @@
-import { supabase } from '@/lib/supabase'
+
 
 export default async function Home() {
-  const { data: categories } = await supabase
-    .from('resources')
-    .select('type')
-    .neq('type', 'av')
     
 
   return (
