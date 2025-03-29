@@ -1,0 +1,11 @@
+{
+    "routes": [
+      {
+        "src": "/",
+        "dest": "/app/page.jsx",
+        "headers": {
+          "Cache-Control": "public, max-age=3600"
+        }
+      }
+    ]
+  }
